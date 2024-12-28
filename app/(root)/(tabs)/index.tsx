@@ -9,10 +9,13 @@ export default function Index() {
         alignItems: "center",
       }}
     >
+      <Text className="font-bold text-lg my-10">
+        Welcome to RealEstate Application
+      </Text>
       <Link href="/Accounts/Sign-In">Sign-In</Link>
       <Link href="/(root)/(tabs)/Explore">Explore</Link>
       <Link href="/(root)/(tabs)/Profile">Profile</Link>
-      <Link href="/(root)/Propertise/[id]">Propertise</Link>
+      <Link href="/(root)/Propertise/1">Propertise</Link>
     </View>
   );
 }
